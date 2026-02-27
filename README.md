@@ -27,24 +27,27 @@ python -m pygame.examples.aliens
 如果看到游戏窗口弹出，说明安装成功！🎮
 
 常见问题及解决办法
+
+
 ❌ 问题 1：pip 不是内部命令或找不到 pip
 解决方法：
 
 # 方法 1：使用 python -m pip
-```bash
+```
 python -m pip install pygame
 ```
 # 方法 2：使用 py 命令（Windows）
-```bash
+```
 py -m pip install pygame
 ```
 # 方法 3：指定 Python 版本
-```bash
+```
 python3 -m pip install pygame
 
 ```
 ❌ 问题 2：权限被拒绝（PermissionError）
 解决方法：
+
 #方法 1：使用 --user 参数（推荐）
 ```bash
 pip install pygame --user
